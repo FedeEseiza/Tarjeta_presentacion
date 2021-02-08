@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, 
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet"> 
+    <!--CSS-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tarjeta de Presentacion</title>
+</head>
+<body>
+    <div class="contenedor">
+        <section class="tarjeta">
+            <section class="slider_banner">
+                <div class="banner" id="banner">
+                    <img class="slide active" src="img/banner.jpeg" alt="">
+                    <img class="slide" src="img/banner2.png" alt="">
+                    <img class="slide" src="img/banner3.png" alt="">
+                    <img class="slide" src="img/banner4.jpg" alt="">
+                </div>
+                <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+            </section>
+            <section class="slider_info">
+                <a href="#" id="info-prev" class="flecha-info anterior"><span class="fa fa-chevron-left"></span></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+                <section id="informacion" class="informacion">
+                    <article id="info">
+                        <div class="slide active">
+                            <h1 class="nombre">Federico Eseiza</h1>
+                            <p class="trabajo">Freelance Web Developer</p>
+                            <p class="pais"><img src="img/arg_flag.png" alt="">Argentina</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Habilidades</h2>
+                            <p class="texto">Conocimiento basico de HTML, CSS, JS, SQL, PHP</p>
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Estudios</h2>
+                            <p class="texto">Secundario completo ISSC <br></br>
+                            Actual alumno de la carrera Anilista Programador Universitario en la UNLP
+                            </p>   
+                        </div>
+                        <div class="slide">
+                            <h2 class="subtitulo">Experiencia laboral</h2>
+                            <p class="texto">Contratista Particular de BKBX(Empresa de Desarrolo Web) <br></br>
+                            Web Site BKBX: <a class="" href="http://www.bkbx.com.ar/"> http://www.bkbx.com.ar/</a> 
+                            </p>
+                        </div>
+                    </article>
+                    <div class="botones" id="botones"></div>
+                </section>
+            </section>
+            <section class="redes_sociales">
+                <a href="#" class="facebook"><span class="fa fa-facebook"></span></a>
+                <a href="#" class="twitter"><span class="fa fa-twitter"></span></a>
+            </section>
+        </section>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
